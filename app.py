@@ -5,7 +5,7 @@ import numpy as np
 app = Flask(__name__)
 
 # Load the trained model
-model = pickle.load(open('D:\\School\\APP_chuan_doan_benh_suy_tym\\model_1.pkl', 'rb'))
+model = pickle.load(open('D:\\School\\APP_chuan_doan_benh_suy_tym\\model_2.pkl', 'rb'))
 sc_a = pickle.load(open('D:\\School\\APP_chuan_doan_benh_suy_tym\\scaler.pkl', 'rb'))
 
 @app.route('/')
